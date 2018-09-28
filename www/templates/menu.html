@@ -1,0 +1,33 @@
+<ion-side-menus enable-menu-with-back-views="true">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-positive">
+      <ion-nav-back-button></ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="side-menu21"></ion-nav-view>
+  </ion-side-menu-content>
+  <ion-side-menu side="left" id="side-menu21" style="background-color:#FFFFFF;">
+    <ion-header-bar class="bar-balanced">
+      <div class="title">Menu</div>
+    </ion-header-bar>
+    <ion-content padding="false" class="side-menu-left has-header ">
+      <div>
+        <img src="img/YhwIsOTfRmyddIOvdKsD_udvclogo.png" style="display: block; width: 50%; height: auto; margin-left: auto; margin-right: auto;">
+      </div>
+      <ion-list id="menu-list1">
+        <ion-item class="item-icon-left positive" id="menu-list-item1" ui-sref="menu.systemsVisitHomeOnline()" menu-close="">
+          <i class="icon ion-ios-home-outline"></i>Home</ion-item>
+        <ion-item class="item-icon-left positive" id="menu-list-item2" ui-sref="menu.page2()" menu-close="">
+          <i class="icon ion-android-folder-open"></i>รายงาน</ion-item>
+        <ion-item class="item-icon-left positive" id="menu-list-item5" ui-sref="menu.page3()" menu-close="">
+          <i class="icon ion-ios-albums-outline"></i>วิธีใช้งาน</ion-item>
+        <ion-item class="item-icon-left positive" id="menu-list-item4" ui-sref="menu.about()" menu-close="">
+          <i class="icon ion-ios-help-outline"></i>About</ion-item>
+        <ion-item class="item-icon-left positive" id="menu-list-item3" ui-sref="login()" menu-close="">
+          <i class="icon ion-ios-close-outline"></i>Log out</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
